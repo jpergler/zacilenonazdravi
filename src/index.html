@@ -10,11 +10,67 @@
     <link rel="stylesheet" href="styles/site.scss">
 </head>
 <body>
-<main class="max-w-5xl mx-auto px-3">
-    <h1>Hello</h1>
-    <a href="#" class="btn">Action</a>
-
-    <p>Demo page built with Parcel and Tailwind CSS</p>
+<nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-xl">
+        <a class="navbar-brand" href="#">Zacíleno na zdraví</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Úvod</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rekondice a masáže</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Akce</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rekondiční pobyty</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">O mně</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<main>
+    <section class="container-xl py-5 hero">
+        <h1 class="hero-heading">Zacíleno na zdraví</h1>
+        <p class="hero-subtitle">Relax &ndash; aktivní pohyb &ndash; dýchání &ndash; klid &ndash; uvolnění</p>
+    </section>
+    <section class="container-xl py-5 services">
+        <div class="row">
+            <div class="card col-4 border-0 text-center">
+                <div class="card-body">
+                    <h2 class="card-title">Rekondice a masáže</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Zjistit víc informací</a>
+                </div>
+            </div>
+            <div class="card col-4 border-0 text-center">
+                <div class="card-body">
+                    <h2 class="card-title">Akce Setkávání se s&hellip;</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary">Zobrazit vypsané akce</a>
+                </div>
+            </div>
+            <div class="card col-4 border-0 text-center">
+                <div class="card-body">
+                    <h2 class="card-title">Víkendové rekondiční pobyty</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary">Zobrazit nabídku pobytů</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 </body>
 </html>
