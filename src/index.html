@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/site.scss">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top">
     <div class="container-xl">
         <a class="navbar-brand" href="#">Zacíleno na zdraví</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -23,52 +23,328 @@
                     <a class="nav-link active" aria-current="page" href="#">Úvod</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Rekondice a masáže</a>
+                    <a class="nav-link" href="#massages">Rekondice a masáže</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Akce</a>
+                    <a class="nav-link" href="#events">Akce</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Rekondiční pobyty</a>
+                    <a class="nav-link" href="#stays">Rekondiční pobyty</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">O mně</a>
+                    <a class="nav-link" href="#contact">O mně</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 <main>
-    <section class="container-xl py-5 hero">
+    <section id="hero" class="container-xl py-5">
         <h1 class="hero-heading">Zacíleno na zdraví</h1>
         <p class="hero-subtitle">Relax &ndash; aktivní pohyb &ndash; dýchání &ndash; klid &ndash; uvolnění</p>
     </section>
-    <section class="container-xl py-5 services">
+    <section id="services" class="container-xl py-5">
         <div class="row">
-            <div class="card col-4 border-0 text-center">
+            <div class="card col border-0 text-center">
                 <div class="card-body">
                     <h2 class="card-title">Rekondice a masáže</h2>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
-                    <a href="#" class="btn btn-primary">Zjistit víc informací</a>
+                    <a href="#massages" class="btn btn-primary stretched-link">Zjistit víc informací</a>
                 </div>
             </div>
-            <div class="card col-4 border-0 text-center">
+            <div class="card col border-0 text-center">
                 <div class="card-body">
                     <h2 class="card-title">Akce Setkávání se s&hellip;</h2>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                         the card's content.</p>
-                    <a href="#" class="btn btn-primary">Zobrazit vypsané akce</a>
+                    <a href="#events" class="btn btn-primary stretched-link">Zobrazit vypsané akce</a>
                 </div>
             </div>
-            <div class="card col-4 border-0 text-center">
+            <div class="card col border-0 text-center">
                 <div class="card-body">
                     <h2 class="card-title">Víkendové rekondiční pobyty</h2>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                         the card's content.</p>
-                    <a href="#" class="btn btn-primary">Zobrazit nabídku pobytů</a>
+                    <a href="#stays" class="btn btn-primary stretched-link">Zobrazit nabídku pobytů</a>
                 </div>
             </div>
+        </div>
+    </section>
+    <section id="massages">
+        <div class="container-xl py-5">
+            <div class="section-header">
+                <h2>Rekondice a masáže</h2>
+            </div>
+            <div class="row row-cols-2 g-5">
+                <div class="col">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis nec justo nec eleifend.
+                    Ut
+                    sit amet fermentum erat, id volutpat purus. Sed laoreet tempor odio, non tincidunt mauris vehicula
+                    et.
+                    Etiam purus dui, rutrum in suscipit vel, venenatis at dui. Aenean arcu neque, pharetra eu ex
+                    iaculis,
+                    fringilla rhoncus ante. Aenean euismod elementum ultricies. Sed ac aliquam justo. Nullam libero
+                    massa,
+                    ullamcorper sit amet eros ac.
+                </div>
+                <div class="col">
+                    <div class="bg-secondary w-100" style="height: 200px">
+                        Image
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 offset-3 my-5">
+                    <h3 class="text-center">Ceník</h3>
+                    <table class="table price-table ">
+                        <tbody>
+                        <tr>
+                            <th>Rekondiční masáž 90 minut</th>
+                            <td>950 Kč</td>
+                        </tr>
+                        <tr>
+                            <th>Rekondiční masáž 120 minut</th>
+                            <td>1 250 Kč</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 offset-3 my-3">
+                    <h3 class="text-center">Poukazy</h3>
+                    <p class="text-center my-3">
+                        Darujte poukaz na masáž svým blízkým. Zakoupení poukazu možné osobně nebo přes e-mail
+                        kontakt@zacilenonazdravi.cz.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="events" class="container-xl py-5">
+        <div class="section-header">
+            <h2>Akce</h2>
+        </div>
+        <div class="row row-cols-3 g-5">
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        10. 2. 2023 (pátek) od 16:00
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ceremonie s posvátným kakaem s Irenou DeLave</h3>
+                        <p class="card-text">Přijďte si zahřát tělo, duši i srdce v posvátném kruhu. Šamanské kakao je
+                            posvátná medicína a za jeho zpracováním s úctou stojí mnoho nádherných duší. Kakaovou
+                            ceremonii pro vás připraví rodačka z Klatov Irenka DeLave, která stojí i za projektem Love
+                            for Guatemala.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cena v předprodeji 490 Kč, na místě 550 Kč</li>
+                        <li class="list-group-item">Místo: Čs. legií 37, Klatovy – masérna, rezervace míst nutná</li>
+                    </ul>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        10. 2. 2023 (pátek) od 16:00
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ceremonie s posvátným kakaem s Irenou DeLave</h3>
+                        <p class="card-text">Přijďte si zahřát tělo, duši i srdce v posvátném kruhu. Šamanské kakao je
+                            posvátná medicína a za jeho zpracováním s úctou stojí mnoho nádherných duší. Kakaovou
+                            ceremonii pro vás připraví rodačka z Klatov Irenka DeLave, která stojí i za projektem Love
+                            for Guatemala.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cena v předprodeji 490 Kč, na místě 550 Kč</li>
+                        <li class="list-group-item">Místo: Čs. legií 37, Klatovy – masérna, rezervace míst nutná</li>
+                    </ul>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        10. 2. 2023 (pátek) od 16:00
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ceremonie s posvátným kakaem s Irenou DeLave</h3>
+                        <p class="card-text">Přijďte si zahřát tělo, duši i srdce v posvátném kruhu. Šamanské kakao je
+                            posvátná medicína a za jeho zpracováním s úctou stojí mnoho nádherných duší. Kakaovou
+                            ceremonii pro vás připraví rodačka z Klatov Irenka DeLave, která stojí i za projektem Love
+                            for Guatemala.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cena v předprodeji 490 Kč, na místě 550 Kč</li>
+                        <li class="list-group-item">Místo: Čs. legií 37, Klatovy – masérna, rezervace míst nutná</li>
+                    </ul>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        10. 2. 2023 (pátek) od 16:00
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ceremonie s posvátným kakaem s Irenou DeLave</h3>
+                        <p class="card-text">Přijďte si zahřát tělo, duši i srdce v posvátném kruhu. Šamanské kakao je
+                            posvátná medicína a za jeho zpracováním s úctou stojí mnoho nádherných duší. Kakaovou
+                            ceremonii pro vás připraví rodačka z Klatov Irenka DeLave, která stojí i za projektem Love
+                            for Guatemala.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cena v předprodeji 490 Kč, na místě 550 Kč</li>
+                        <li class="list-group-item">Místo: Čs. legií 37, Klatovy – masérna, rezervace míst nutná</li>
+                    </ul>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        10. 2. 2023 (pátek) od 16:00
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ceremonie s posvátným kakaem s Irenou DeLave</h3>
+                        <p class="card-text">Přijďte si zahřát tělo, duši i srdce v posvátném kruhu. Šamanské kakao je
+                            posvátná medicína a za jeho zpracováním s úctou stojí mnoho nádherných duší. Kakaovou
+                            ceremonii pro vás připraví rodačka z Klatov Irenka DeLave, která stojí i za projektem Love
+                            for Guatemala.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cena v předprodeji 490 Kč, na místě 550 Kč</li>
+                        <li class="list-group-item">Místo: Čs. legií 37, Klatovy – masérna, rezervace míst nutná</li>
+                    </ul>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        10. 2. 2023 (pátek) od 16:00
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Ceremonie s posvátným kakaem s Irenou DeLave</h3>
+                        <p class="card-text">Přijďte si zahřát tělo, duši i srdce v posvátném kruhu. Šamanské kakao je
+                            posvátná medicína a za jeho zpracováním s úctou stojí mnoho nádherných duší. Kakaovou
+                            ceremonii pro vás připraví rodačka z Klatov Irenka DeLave, která stojí i za projektem Love
+                            for Guatemala.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cena v předprodeji 490 Kč, na místě 550 Kč</li>
+                        <li class="list-group-item">Místo: Čs. legií 37, Klatovy – masérna, rezervace míst nutná</li>
+                    </ul>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="stays">
+        <div class="container-xl py-5">
+            <div class="section-header">
+                <h2>Rekreační pobyty</h2>
+            </div>
+            <div class="row">
+                <div class="section-description col-8 offset-2 text-center">
+                    Víkendové rekondiční pobyty s aktivním zdravým pohybem a uvolněním těla i mysli, proložené besedami,
+                    řízeným dýcháním, muzikoterapií
+                    a s malým sebepoznáváním. Dovolte si zastavit se v běhu každodennosti, užít si relax a odpočinek a
+                    podpořit ozdravné procesy v těle.
+                </div>
+            </div>
+            <div class="row row-cols-2 g-5 mt-3 align-items-stretch">
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Zuklín</h3>
+                            <p class="card-text">vesnička pod horou Javorník, kde jsou stopy keltských předků v podobě
+                                kamenů - menhirů. Keltové ctili přírodní síly a úctu vzdávali horám, řekám, stromům i
+                                kamenům. Pojďme mimo jiné pocítit toto dědictví našich předků, abychom ho mohli předávat
+                                dál...</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div><strong>Penzion Na Vyhlídce, Zuklín</strong></div>
+                                www.penzionzuklin.cz
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Termíny</h5>
+                                <ul>
+                                    <li>31. 3. &ndash; 2. 4. 2023 (přihl. do 28.2.)</li>
+                                    <li>19. 5. &ndash; 21. 5. 2023 (přihl. do 17.4.)</li>
+                                    <li>9. 6. &ndash; 11. 6. 2023 (přihl. do 8.5.)</li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Cena</h5>
+                                <div>2 180 Kč/os., bez stravy</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Popelná hora</h3>
+                            <p class="card-text">Je uprostřed nádherných šumavských lesů. Na jejím úpatí se nachází
+                                kouzelné místo
+                                s průzračnou říčkou Losenicí, rekreační chatou a krásnými cestami stvořenými pro
+                                procházky třeba i do vyhlášené cukrárny Ella na Churáňově....</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div><strong>Chata Na Losenici, Popelná</strong></div>
+                                www.nalosenici.cz
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Termín</h5>
+                                <ul>
+                                    <li>1.9. - 3.9. 2023 (přihl. do 10.6.)</li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Cena</h5>
+                                <div>3 480 Kč/os., se snídaní</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-xl">
+            <div class="section-header">
+                <h2>Kontakt</h2>
+            </div>
+        </div>
+        <div class="container-xl">
+            <dl class="text-center">
+                <dt>E-mail</dt>
+                <dd><a href="mailto:kontakt@zacilenonazdravi.cz">kontakt@zacilenonazdravi.cz</a></dd>
+                <dt>Telefon</dt>
+                <dd>+420 602 465 927</dd>
+            </dl>
         </div>
     </section>
 </main>

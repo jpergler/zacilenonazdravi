@@ -4,7 +4,20 @@ $secondary: #2244cb;
 
 @import "~bootstrap/scss/bootstrap";
 
-section.hero {
+.navbar {
+  background: url("../img/Sunflower Background Box.png") repeat-x top center;
+
+  a {
+    color: rgba(255, 255, 255, 0.84);
+  }
+}
+
+section .section-header h2 {
+  text-align: center;
+  padding-block: 2rem;
+}
+
+#hero {
   text-align: right;
   @include padding-right(6rem);
 
@@ -17,7 +30,7 @@ section.hero {
   }
 }
 
-section.services {
+#services {
   .card {
     h2 {
       font-size: 1.8em;
@@ -30,5 +43,36 @@ section.services {
     &:hover {
       background-color: #eee;
     }
+  }
+}
+
+#massages {
+  background-color: $light;
+
+  .price-table {
+    td {
+      text-align: right
+    }
+  }
+}
+
+#events {
+  .card h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+#stays {
+  background-color: $light;
+}
+
+#contact {
+  background-size: auto;
+  background: #2763A4 url("../img/Footer Sunflowers.png") repeat-x center bottom;
+  padding-bottom: 350px;
+  color: white;
+
+  a {
+    color: #afc3e1;
   }
 }
