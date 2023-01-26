@@ -49,6 +49,11 @@ section .section-header h2 {
 #massages {
   background-color: $light;
 
+  img.massage-image {
+    width: 100%;
+
+  }
+
   .price-table {
     td {
       text-align: right
