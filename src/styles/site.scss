@@ -1,11 +1,11 @@
 $primary: #2763a4;
-$secondary: #2244cb;
+$secondary: #ffdd0e;
 
 
 @import "~bootstrap/scss/bootstrap";
 
+
 .navbar {
-  background: url("../img/Sunflower Background Box.png") repeat-x top center;
 
   a {
     color: rgba(255, 255, 255, 0.84);
@@ -18,7 +18,8 @@ section .section-header h2 {
 }
 
 #hero {
-  text-align: right;
+  text-align: center;
+  background-color: #fff3cc;
   @include padding-right(6rem);
 
   .hero-heading {
@@ -26,7 +27,14 @@ section .section-header h2 {
   }
 
   .hero-subtitle {
-    font-size: 2em;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+
+  .hero-text {
+    margin-top: 1rem;
+    font-size: 1.3em;
   }
 }
 
