@@ -11,7 +11,7 @@ npm run build-public
 cd build/public
 
 # if you are deploying to a custom domain
-echo 'zacilenonazdravi.cz' > CNAME
+#echo 'zacilenonazdravi.cz' > CNAME
 
 git init
 git add -A

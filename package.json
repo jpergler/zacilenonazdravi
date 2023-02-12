@@ -4,7 +4,7 @@
   "scripts": {
     "run": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir build/default",
-    "build-public": "parcel build src/index.html --public-url '/' --dist-dir build/public",
+    "build-public": "parcel build src/index.html --public-url '/zacilenonazdravi' --dist-dir build/public",
     "clean-build": "rm -rf build/default",
     "clean-build-public": "rm -rf build/public",
     "clean": "npm run clean-build & npm run clean-build-public"
