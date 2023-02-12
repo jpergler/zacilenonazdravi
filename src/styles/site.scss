@@ -96,6 +96,18 @@ section .section-header h2 {
   background-color: $secondary-light;
 }
 
+#about-me {
+  blockquote {
+    font-weight: bold;
+    text-transform: uppercase;
+
+    .name {
+      font-weight: normal;
+      text-transform: none;
+    }
+  }
+}
+
 #contact {
   background-size: auto;
   background: #2763A4 url("../img/Footer Sunflowers.png") repeat-x center bottom;
