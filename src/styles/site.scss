@@ -6,6 +6,8 @@ $btn-border-radius: 4px;
 $card-spacer-x: 1.5rem;
 $card-spacer-y: 1.3rem;
 
+$font-family-base: "Noto Sans", Arial, Helvetica, sans-serif;
+
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -50,7 +52,7 @@ section .section-header h2 {
 #services {
   .card {
     h2 {
-      font-size: 1.8em;
+      font-size: 1.7em;
     }
 
     .card-text {
