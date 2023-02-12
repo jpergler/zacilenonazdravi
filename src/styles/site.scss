@@ -24,7 +24,6 @@ section .section-header h2 {
   background-image: url("../img/priroda.jpg");
   background-size: cover;
   background-position: center top;
-  @include padding-right(6rem);
   padding-block: 10rem;
 
   .hero-heading {
