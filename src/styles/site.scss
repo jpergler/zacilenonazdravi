@@ -8,7 +8,7 @@ $secondary: #ffdd0e;
 .navbar {
 
   a {
-    color: rgba(255, 255, 255, 0.84);
+    //color: rgba(255, 255, 255, 0.84);
   }
 }
 
@@ -20,7 +20,12 @@ section .section-header h2 {
 #hero {
   text-align: center;
   background-color: #fff3cc;
+  color: white;
+  background-image: url("../img/priroda.jpg");
+  background-size: cover;
+  background-position: center top;
   @include padding-right(6rem);
+  padding-block: 10rem;
 
   .hero-heading {
     font-size: 4em;
